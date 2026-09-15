@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Hina Rani — Creative Frontend Web Developer Portfolio">
+  <title>Hina Rani | Web Developer</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Space+Grotesk:wght@500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="cursor-glow"></div>
+
+  <header class="navbar" id="navbar">
+    <a class="brand" href="#home"><span class="brand-dot"></span> HINA<span>RANI</span></a>
+
+    <nav class="nav-links" id="navLinks">
+      <a href="#home" class="active">Home</a>
+      <a href="#about">About</a>
+      <a href="#skills">Skills</a>
+      <a href="#projects">Projects</a>
+      <a href="#journey">Journey</a>
+      <a href="#contact">Contact</a>
+    </nav>
+
+    <div class="nav-actions">
+      <button class="icon-btn" id="themeBtn" aria-label="Toggle theme">☼</button>
+      <a class="talk-btn" href="#contact">Let's Talk <span>↗</span></a>
+      <button class="menu-btn" id="menuBtn" aria-label="Open menu">☰</button>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero section" id="home">
+      <div class="hero-noise"></div>
+      <div class="hero-copy reveal">
+        <div class="status"><i></i> AVAILABLE FOR FREELANCE WORK</div>
+        <p class="eyebrow">HELLO, I'M</p>
+        <h1>Hina Rani<br><span>Web Developer.</span></h1>
+        <p class="hero-text">I design and build thoughtful digital experiences where bold visuals meet clean, purposeful code.</p>
+        <div class="hero-buttons">
+          <a href="#projects" class="primary-btn">View My Work <span>↗</span></a>
+          <a href="#about" class="ghost-btn">More About Me <span>↓</span></a>
+        </div>
+        <div class="social-row">
+          <span>FOLLOW ME</span>
+          <a href="#" aria-label="GitHub">GH</a>
+          <a href="#" aria-label="LinkedIn">in</a>
+          <a href="#" aria-label="Instagram">◎</a>
+        </div>
+      </div>
+
+      <div class="hero-art reveal">
+        <div class="orbit orbit-one"></div>
+        <div class="orbit orbit-two"></div>
+        <div class="orbit orbit-three"></div>
+        <div class="hero-glow"></div>
+        <div class="profile-frame">
+          <img src="./images/girl.png" alt="Hina Rani profile photo"
+               onerror="this.style.display='none'; this.parentElement.classList.add('image-fallback');">
+          <div class="fallback-person">
+            <div class="fallback-head"></div><div class="fallback-body"></div>
+          </div>
+        </div>
+        <div class="floating-card card-top"><b>5+</b><small>Years learning<br>& building</small></div>
+        <div class="floating-card card-bottom"><span>✦</span><div><b>Good design</b><small>feels effortless.</small></div></div>
+        <div class="side-label">SCROLL ↓</div>
+      </div>
+    </section>
+
+
+
+    <section class="marquee">
+      <div>HTML5 <b>✦</b> CSS3 <b>✦</b> JAVASCRIPT <b>✦</b> RESPONSIVE UI <b>✦</b> FIREBASE <b>✦</b> CREATIVE WEB <b>✦</b> HTML5 <b>✦</b> CSS3 <b>✦</b></div>
+    </section>
+
+    <section class="section about" id="about">
+      <div class="section-head reveal">
+        <p class="eyebrow">01 — ABOUT ME</p>
+        <h2>Turning ideas into<br><span>digital experiences.</span></h2>
+      </div>
+      <div class="about-grid">
+        <div class="about-copy reveal">
+          <p class="large-copy">I'm a frontend developer who loves creating websites that feel <strong>modern, alive and memorable.</strong></p>
+          <p>I enjoy combining thoughtful layouts, smooth interactions and clean code to turn an idea into a real experience. My focus is responsive design, polished UI and JavaScript-powered interactions.</p>
+          <a class="text-link" href="#contact">Let's create something great <span>↗</span></a>
+        </div>
+        <div class="stats-grid reveal">
+          <div class="stat"><strong data-count="12">12</strong><span>Projects<br>Completed</span></div>
+          <div class="stat"><strong data-count="8">8</strong><span>UI Concepts<br>Designed</span></div>
+          <div class="stat"><strong data-count="4">4%</strong><span>Core<br>Technologies</span></div>
+          <div class="stat"><strong data-count="100">100</strong><span>Responsive<br>Focus %</span></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section skills" id="skills">
+      <div class="section-head reveal">
+        <p class="eyebrow">02 — MY TOOLKIT</p>
+        <h2>Skills that bring<br><span>ideas to life.</span></h2>
+      </div>
+      <div class="skills-grid">
+        <article class="skill-card reveal"><span class="skill-no">01</span><div class="skill-icon">&lt;/&gt;</div><h3>HTML5</h3><p>Semantic, accessible and well-structured web pages.</p><div class="meter"><i style="width:94%"></i></div><small>94% confidence</small></article>
+        <article class="skill-card reveal"><span class="skill-no">02</span><div class="skill-icon">✦</div><h3>CSS3</h3><p>Responsive layouts, animations and visual systems.</p><div class="meter"><i style="width:92%"></i></div><small>92% confidence</small></article>
+        <article class="skill-card reveal"><span class="skill-no">03</span><div class="skill-icon">JS</div><h3>JavaScript</h3><p>Interactive interfaces, logic and dynamic experiences.</p><div class="meter"><i style="width:86%"></i></div><small>86% confidence</small></article>
+        <article class="skill-card reveal"><span class="skill-no">04</span><div class="skill-icon">🔥</div><h3>Firebase</h3><p>Authentication, data storage and connected web apps.</p><div class="meter"><i style="width:78%"></i></div><small>78% confidence</small></article>
+      </div>
+    </section>
+
+    <section class="section projects" id="projects">
+      <div class="section-head projects-head reveal">
+        <div><p class="eyebrow">03 — SELECTED WORK</p><h2>Things I've <span>built.</span></h2></div>
+        <div class="filters">
+          <button class="filter active" data-filter="all">All</button>
+          <button class="filter" data-filter="ui">UI</button>
+          <button class="filter" data-filter="javascript">JavaScript</button>
+          <button class="filter" data-filter="website">Websites</button>
+        </div>
+      </div>
+
+      <div class="project-grid">
+        <article class="project-card reveal" data-category="javascript ui">
+          <div class="project-image purple">
+            <img src="./images/Music.png" alt="VYBE Music Player" onerror="this.style.display='none'">
+            <div class="image-placeholder"><span>VYBE</span><small>Modern Music Player</small></div>
+            <span class="project-tag">01 / JAVASCRIPT</span>
+            <button class="preview-btn" data-title="VYBE Music Player" data-desc="Modern responsive music player UI built with HTML, CSS and JavaScript.">↗</button>
+          </div>
+
+          <div class="project-info"><div><h3>VYBE</h3><p>Modern Music Player</p></div><span>2026</span></div>
+        </article>
+        <article class="project-card reveal" data-category="ui website">
+          <div class="project-image gold">
+            <img src="images/watch.png" alt="Luxury watch website" onerror="this.style.display='none'">
+            <div class="image-placeholder"><span>ROXAL</span><small>Luxury Watch Website</small></div>
+            <span class="project-tag">02 / WEBSITE</span>
+            <button class="preview-btn" data-title="ROXAL — Luxury Watch" data-desc="A premium dark ecommerce-style landing page with product presentation, navigation and responsive layout.">↗</button>
+          </div>
+          <div class="project-info"><div><h3>ROXAL</h3><p>Luxury Watch Experience</p></div><span>2026</span></div>
+        </article>
+
+        <article class="project-card reveal" data-category="website ui">
+          <div class="project-image pink">
+            <img src="images/smoothies.png" alt="Smoothies website" onerror="this.style.display='none'">
+            <div class="image-placeholder"><span>SMOOTHIES</span><small>Fresh & Colorful</small></div>
+            <span class="project-tag">03 / WEBSITE</span>
+            <button class="preview-btn" data-title="Smoothies" data-desc="A bright food website with product-focused visuals, navigation, search and an order call-to-action.">↗</button>
+          </div>
+          <div class="project-info"><div><h3>SMOOTHIES</h3><p>Fresh Drink Website</p></div><span>2026</span></div>
+        </article>
+
+        <article class="project-card reveal" data-category="javascript ui">
+          <div class="project-image red">
+            <img src="images/car.png" alt="DriveNove car website" onerror="this.style.display='none'">
+            <div class="image-placeholder"><span>DRIVENOVE</span><small>Car Showcase</small></div>
+            <span class="project-tag">04 / JAVASCRIPT</span>
+            <button class="preview-btn" data-title="DriveNove — Car Showcase" data-desc="A bold automotive interface with hero product display, statistics, navigation and interactive presentation.">↗</button>
+          </div>
+          <div class="project-info"><div><h3>DRIVENOVE</h3><p>Automotive Showcase</p></div><span>2026</span></div>
+        </article>
+      </div>
+      <div class="center"><button class="load-more" id="loadMore">Explore More Projects <span>↓</span></button></div>
+    </section>
+
+    <section class="section journey" id="journey">
+      <div class="section-head reveal"><p class="eyebrow">04 — MY JOURNEY</p><h2>Learning, building,<br><span>leveling up.</span></h2></div>
+      <div class="timeline">
+        <div class="timeline-item reveal"><span class="year">2024</span><div><h3>Started Web Development</h3><p>Built my foundation in HTML, CSS and responsive layouts.</p></div></div>
+        <div class="timeline-item reveal"><span class="year">2025</span><div><h3>JavaScript & Interactive UI</h3><p>Started turning static designs into functional web experiences.</p></div></div>
+        <div class="timeline-item reveal"><span class="year">2026</span><div><h3>Frontend Projects & Internship</h3><p>Creating polished projects, exploring Firebase and improving real-world frontend skills.</p></div></div>
+      </div>
+    </section>
+
+    <section class="contact section" id="contact">
+      <div class="contact-glow"></div>
+      <div class="contact-content reveal">
+        <p class="eyebrow">05 — CONTACT</p>
+        <h2>Have an idea?<br><span>Let's build it.</span></h2>
+        <p>Whether it's a portfolio, landing page or interactive web app, I'd love to hear about it.</p>
+        <a class="email-link" href="mailto:hello@example.com">hello@example.com <span>↗</span></a>
+      </div>
+      <form class="contact-form reveal" id="contactForm">
+        <label>Your name<input type="text" id="name" placeholder="Hina Rani" required></label>
+        <label>Email address<input type="email" id="email" placeholder="you@example.com" required></label>
+        <label>Tell me about your project<textarea id="message" rows="5" placeholder="I have an idea for..." required></textarea></label>
+        <button class="primary-btn" type="submit">Send Message <span>↗</span></button>
+        <p class="form-note" id="formNote"></p>
+      </form>
+    </section>
+  </main>
+
+  <footer>
+    <div class="footer-brand"><span class="brand-dot"></span> HINARANI</div>
+    <p>Designed & built with HTML, CSS & JavaScript.</p>
+    <p>© <span id="year"></span> Hina Rani</p>
+  </footer>
+
+  <div class="modal" id="projectModal" aria-hidden="true">
+    <div class="modal-box">
+      <button class="modal-close" id="modalClose">×</button>
+      <p class="eyebrow">PROJECT PREVIEW</p>
+      <h2 id="modalTitle">Project</h2>
+      <p id="modalDesc"></p>
+      <a href="#contact" class="primary-btn modal-link">Discuss a similar project ↗</a>
+    </div>
+  </div>
+
+  <script src="app.js"></script>
+</body>
+</html>
